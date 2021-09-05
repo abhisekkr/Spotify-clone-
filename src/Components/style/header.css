@@ -1,0 +1,42 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.header__left {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.buttons > .icons {
+	margin-left: 8px;
+	padding: 5px;
+	border: 1px solid #fafafa;
+	border-radius: 50%;
+	font-size: 20px;
+	cursor: pointer;
+}
+.buttons > .icon {
+	margin-left: 8px;
+	padding: 5px;
+	border: 1px solid #fafafa;
+	border-radius: 50%;
+	font-size: 20px;
+	cursor: pointer;
+}
+.header__left > input {
+	border: 0px;
+	width: 100%;
+}
+
+.header__right {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.header__right > h4 {
+	margin-left: 10px;
+}

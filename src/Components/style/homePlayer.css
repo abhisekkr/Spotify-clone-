@@ -1,0 +1,17 @@
+.home__player {
+	flex: 0.9;
+	height: 85vh;
+	color: white;
+	padding: 15px;
+	background-color: rgb(91, 87, 115);
+	overflow-y: overlay;
+	background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+}
+
+.home__player::-webkit-scrollbar {
+	display: none;
+}
+.homeCard {
+	display: flex;
+	flex-wrap: wrap;
+}
